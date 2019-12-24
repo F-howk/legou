@@ -1,0 +1,285 @@
+#top .fl{
+    margin-left: 258px;
+}
+#left{
+    width: 258px;
+    height: 105px;
+    background: none;
+}
+#right{
+    width: 942px;
+    height: 77px;
+    margin-top: 0;
+    font-size: 30px;
+    line-height: 77px;
+    text-indent: 24px;
+    color: #666666;
+}
+#main>p{
+    font-size: 20px;
+    color:#666 ;
+    margin-top: 20px;
+}
+#main>p>a{
+    float: right;
+    font-size: 18px;
+    color: #1080e9;
+}
+#main .warp{
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #4c4c4c;
+    background: #f2f2f2;
+}
+#main .warp .warpMoney{
+    float: right;
+    color: #333333;
+    margin-right: 88px;
+}
+#main .warp .time{
+    color:#f30e0e;
+}
+#main .warp .money{
+    font-size: 22px;
+    color: #f60;
+}
+#main .pay{
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 0px;
+    font-size: 18px;
+    color: #bfbfbf;
+}
+#main .pay>span{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background: #f60;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 22px;
+    color: #fefefe;
+}
+#main .card{
+    height: 34px;
+    padding: 30px 0px;
+    background: #f2f2f2;
+}
+#main .card>div{
+    line-height: 34px;
+}
+#main .card>div:not(:last-child){
+    float: left;
+}
+#main .card>div:last-child{
+    float: right;
+}
+#main .card>div:first-child{
+    font-size: 18px;
+    color: #4c4c4c;
+    width: 121px;
+    height: 30px;
+    border: 2px solid #f60;
+    text-align: center;
+    background: url(../img/true.png) no-repeat 105px 16px ;
+    margin-left: 64px;
+}
+#main .card>div:nth-child(2){
+    width: 348px;
+    height: 32px;
+    border: 1px solid #bfbfbf;
+    font-size: 18px;
+    color: #4c4c4c;
+    margin-left: 26px;
+    text-indent: 1em;
+}
+#main .card>div:nth-child(2)>span:first-child{
+    color: #f60;
+    margin-left: 53px;
+}
+#main .card>div:nth-child(2)>span:last-child{
+    color: #bfbfbf;
+    margin-left: 36px;
+}
+#main .card>div:nth-child(3){
+    width: 120px;
+    height: 30px;
+    background: #999;
+    margin-left: 28px;
+    margin-top: 2px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+}
+#main .card>div:last-child{
+    font-size: 18px;
+    color: #333;
+    margin-right: 22px;
+}
+#main .card>div:last-child>span{
+    font-size: 22px;
+    color: #f60;
+}
+#main .payBtn{
+    width: 228px;
+    height: 60px;
+    background: #f60;
+    text-align: center;
+    line-height: 60px;
+    font-size: 26px;
+    color: #fff;
+    margin-top: 12px;
+    float: right;
+    cursor: pointer;
+}
+#main .box{
+    clear: both;
+}
+#main .otherPay{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #bfbfbf;
+}
+#main .otherPay>span{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background: #76aff5;
+    font-size: 22px;
+    color: #fefefe;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#main .oPay{
+    height: 94px;
+    width: 1128px;
+    line-height: 94px;
+    background: #f2f2f2;
+    margin-top: 14px;
+    padding-left: 72px;
+    margin-bottom: 40px;
+}
+#main .oPay>a{
+    display: inline-block;
+    font-size: 18px;
+    color: #595959;
+}
+.payTrue{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 999;
+}
+.payTrue>div{
+    width: 470px;
+    height: 280px;
+    position: fixed;
+    top: 255px;
+    left: 50%;
+    margin-left: -235px;
+    background: #fff;
+    box-shadow: -3px -1px 17px #333;
+}
+.payTrue .ptTop{
+    width: 444px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #666;
+    background: #e6e6e6;
+    padding: 0px 13px;
+}
+.payTrue .ptTop>span{
+    line-height: 40px;
+}
+.payTrue .ptTop>span:last-child{
+    cursor: pointer;
+}
+.payTrue .PtBottom{
+    padding-top:25px ;
+    padding-left: 132px;
+    font-size: 20px;
+    color: #666;
+}
+.payTrue .PtBottom>p{
+    font-size: 18px;
+    color: #ccc;
+    margin-top: 20px;
+    margin-left: 56px;
+}
+.payTrue .PtBottom>.btn{
+    width: 120px;
+    height: 40px;
+    background: #f60;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 42px;
+}
+
+.payFalse{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 999;
+}
+.payFalse>div{
+    width: 470px;
+    height: 280px;
+    position: fixed;
+    top: 255px;
+    left: 50%;
+    margin-left: -235px;
+    background: #fff;
+    box-shadow: -3px -1px 17px #333;
+}
+.payFalse .ptTop{
+    width: 444px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #666;
+    background: #e6e6e6;
+    padding: 0px 13px;
+}
+.payFalse .ptTop>span{
+    line-height: 40px;
+}
+.payFalse .ptTop>span:last-child{
+    cursor: pointer;
+}
+.payFalse .PtBottom{
+    padding-top:25px ;
+    padding-left: 132px;
+    font-size: 20px;
+    color: #666;
+}
+.payFalse .PtBottom>p{
+    font-size: 18px;
+    color: #ccc;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.payFalse .PtBottom>.btn{
+    width: 120px;
+    height: 40px;
+    background: #f60;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 42px;
+}

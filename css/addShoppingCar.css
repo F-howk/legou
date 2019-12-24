@@ -1,0 +1,260 @@
+#left{
+    width: 258px;
+    height: 105px;
+}
+#right{
+    width: 942px;
+    height: 71px;
+}
+#top .fl{
+    margin-left: 258px;
+}
+#rightBottom{
+    width: 220px;
+    height: 24px;
+    font-size: 14px;
+    color: #4c4c4c;
+    margin-top: 14px;
+    margin-right: 8px;
+}
+#search{
+    margin-bottom: 0;
+}
+#rightBottom select{
+    outline: none;
+    width: 171px;
+    height: 22px;
+    border: li solid #d9d9d9;
+}
+#indent{
+    height: 92px;
+    margin-top: 16px;
+}
+#indent>span{
+    font-size: 20px;
+    color: #666;
+}
+#indentTop{
+    height: 60px;
+    background: #f2f2f2;
+    margin-top: 6px;
+    line-height: 60px;
+    position: relative;
+    font-size: 18px;
+    color: #808080;
+    text-indent: 45px;
+
+}
+#indentTop>div{
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border: li solid #cccccc;
+    position: absolute;
+    top:20px;
+    left: 22px;
+}
+#indentTop>span:first-of-type{
+    margin-left: 180px;
+}
+#indentTop>span:nth-of-type(2){
+    margin-left: 300px;
+}
+#indentTop>span:nth-of-type(3){
+    margin-left: 126px;
+}
+#indentTop>span:nth-of-type(4){
+    margin-left: 112px;
+}
+#indentTop>span:nth-of-type(5){
+    margin-left: 88px;
+}
+#prodI{
+    margin-top: 19px;
+}
+#prodI>.prodIndent{
+    height: 190px;
+    padding-top: 20px;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+}
+#prodI>.prodIndent:first-of-type{
+    border-top: 6px solid #dfdfdf;
+}
+.checkbox{
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 20px;
+    left: 23px;
+}
+#body .checkbox.checkboxOn{
+    background: #f60;
+}
+.proBooks{
+    width: 160px;
+    height: 160px;
+    border: 1px solid #e5e5e5;
+    margin-left: 74px;
+    text-align: center;
+    line-height: 160px;
+}
+.prodRight{
+    width: 960px;
+    height: 60px;
+    position: absolute;
+    font-size: 16px;
+    color: #4c4c4c;
+    top: 34px;
+    right: 0;
+}
+.prodRight>span{
+    margin-left: 30px;
+}
+#prodI .add,#prodI .num,#prodI .rem{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    line-height: 26px;
+}
+#prodI .money{
+    margin-left: 210px;
+}
+#prodI .add{
+    margin-left: 72px;
+}
+#prodI .num{
+    width: 74px;
+    margin-left: -9px;
+}
+#prodI .rem{
+    margin-left: -9px;
+}
+#prodI .money2{
+    margin-left: 70px;
+}
+#prodI .remove{
+    margin-left: 84px;
+}
+#prodI .move{
+    float: right;
+    margin-right: 30px;
+}
+#prodI>.finalEstimate{
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #ccc;
+    margin-top: 32px;
+    text-indent: 3em;
+    font-size: 16px;
+    color: #808080;
+    position: relative;
+}
+.finalEstimate>#all{
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: 21px;
+    left: 22px;
+}
+.finalEstimate>span{
+    margin-left: 30px;
+}
+#prodI .finalBtn{
+    width: 126px;
+    height: 60px;
+    background: #f60;
+    font-size: 26px;
+    color: #fefefe;
+    text-indent: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.finalEstimate>.finalBtn,.finalEstimate>.allPrice,.finalEstimate>.allNum{
+    text-indent: 0;
+    text-align: center;
+    margin-left: 60px;
+}
+.finalEstimate>.allPrice{
+    font-size: 20px;
+    color: #4c4c4c;
+}
+.finalEstimate>.allPrice>span{
+    color: #f60;
+}
+.finalEstimate>.allNum>span{
+    font-size: 22px;
+    color: #f60;
+}
+.lBooks{
+    height: 312px;
+    margin-top: 38px;
+}
+.bTop{
+    height: 47px;
+}
+.bTop span{
+    display: block;
+    width: 124px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 24px;
+    background: #f60;
+    color: #fff;
+    text-align: center;
+}
+.bMiddle{
+    box-sizing: border-box;
+    border-top: 6px solid #f60;
+}
+#booksMiddle>div{
+    float: left;
+    width: 208px;
+    height: 258px;
+    box-sizing: border-box;
+    padding: 5px 30px;
+}
+#booksMiddle>div:not(:nth-child(5n)){
+    margin-right: 40px;
+}
+#booksMiddle>.bDiv{
+    margin-bottom: 4px;
+}
+#booksMiddle>.bDiv:hover{
+    background: #f2f2f2;
+}
+#booksMiddle .bookPng{
+    margin-left:-30px;
+}
+#booksMiddle>div>p{
+    font-size: 14px;
+    color: #333;
+    margin-left: -20px;
+    line-height: 26px;
+    vertical-align: middle;
+}
+#booksMiddle .pPng{
+    color: #f4290d;
+    background: url(../img/XX.png) no-repeat 40px 1px;
+}
+#booksMiddle>div>p:nth-last-child(1)>span{
+    font-size: 24px;
+    margin-left: -2px;
+    margin-right: 18px;
+}
+#booksMiddle>div>p:nth-last-child(1)>span:first-child{
+    color: #f4290d;
+}
+#booksMiddle>div>p:nth-last-child(1)>span:last-child{
+    color: #bfbfbf;
+    text-decoration: line-through;
+}
+.bottomPng{
+    margin-top: 90px;
+}

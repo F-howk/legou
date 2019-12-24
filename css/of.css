@@ -1,0 +1,346 @@
+#left{
+    width: 258px;
+    height: 105px;
+}
+#right{
+    width: 942px;
+    height: 71px;
+    line-height: 64px;
+}
+#top .fl{
+    margin-left: 258px;
+}
+#right input{
+    text-indent: 1em;
+    color: #bfbfbf;
+}
+#main>span{
+    display: inline-block;
+    margin-top: 22px;
+    font-size: 20px;
+    color: #666;
+    text-indent: 5px;
+}
+#main>.ofTop{
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #4c4c4c;
+    background: #f2f2f2;
+}
+#main>.ofTop>.fl{
+    margin-left: 15px;
+}
+#main>.ofTop>.fr{
+    margin-right: 15px;
+    color: #1080e9;
+    cursor: pointer;
+}
+#main .information{
+    height: 172px;
+    padding-top: 20px;
+    background: #fff;
+}
+#main .information>div{
+    height: 34px;
+    line-height: 34px;
+}
+#main .informationTop>span{
+    display: inline-block;
+    font-size: 18px;
+    color: #4c4c4c;
+    margin-left: 40px;
+}
+.informationTop>.address{
+    width: 121px;
+    height: 30px;
+    border: 2px solid #f60;
+    text-align: center;
+    background: url(../img/true.png) no-repeat 105px 16px;
+}
+#main .informationTop>span:nth-child(3),#main .informationTop>span:nth-child(4){
+    margin-left: 20px;
+}
+#main .informationTop>.consignee{
+    margin-left: 80px;
+}
+#main .informationTop>span:nth-last-child(1),#main .informationTop>span:nth-last-child(2){
+    margin-left: 50px;
+}
+#main .informationTop>.defaultAddress{
+    width: 124px;
+    height: 30px;
+    background: #999;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+#main .information>span{
+    font-size: 18px;
+    display: inline-block;
+    color: #4c4c4c;
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+#main .informationBottom>span{
+    display: inline-block;
+    font-size: 18px;
+    color: #4c4c4c;
+    margin-left: 40px;
+}
+.informationBottom>.address{
+    width: 121px;
+    height: 30px;
+    border: 2px solid #e6e6e6;
+    text-align: center;
+}
+#main .informationBottom>span:nth-child(3),#main .informationBottom>span:nth-child(4){
+    margin-left: 20px;
+}
+#main .informationBottom>.consignee{
+    margin-left: 80px;
+}
+#main .informationBottom>span:nth-last-child(1),#main .informationBottom>span:nth-last-child(2){
+    margin-left: 50px;
+}
+#main .informationBottom>.defaultAddress{
+    font-size:  24px;
+    color: #f60;
+    cursor: pointer;
+}
+#main .payWay{
+    height: 60px;
+    background: #f2f2f2;
+    line-height: 60px;
+    text-indent: 15px;
+    font-size: 18px;
+    color: #4c4c4c;
+}
+#main .payWays{
+    height: 105px;
+    font-size: 18px;
+    color: #4c4c4c;
+}
+#main .payWays>span{
+    display: inline-block;
+    width: 121px;
+    height: 30px;
+    border: 2px solid #e5e5e5;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 6px;
+}
+#main .payWays>span:first-child{
+    margin-left: 42px;
+    border: 2px solid #f60;
+    background: url(../img/true.png) no-repeat 105px 16px;
+}
+#main .payWays>span:last-child{
+    border: 0;
+    cursor: pointer;
+}
+#main .list{
+    height: 60px;
+    background: #f2f2f2;
+    line-height: 60px;
+    font-size: 18px;
+    color: #4c4c4c;
+    text-indent: 15px;
+}
+#main .list>.fr{
+    color: #1080e9;
+    margin-right: 16px;
+}
+#main .delivery{
+    height: 264px;
+    padding-top: 8px;
+    border-bottom: 2px solid #e5e5e5;
+    font-size: 18px;
+    color: #4c4c4c;
+}
+#main .delivery>.dyLeft{
+    width: 446px;
+    height: 231px;
+    padding-top: 22px;
+    padding-left: 18px;
+}
+#main .delivery>.dyRight{
+    width: 736px;
+    height: 253px;
+    background: #f2f2f2;
+}
+#main .delivery>.dyLeft>span{
+    display: block;
+}
+#main .delivery>.dyLeft>span:nth-child(2){
+    width: 121px;
+    height: 30px;
+    border: 2px solid #f60;
+    background: url(../img/true.png) no-repeat 105px 16px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 16px;
+    margin-bottom: 44px;
+    margin-left: 26px;
+}
+.delivery p{
+    color:#999999;
+    line-height: 36px;
+}
+.delivery p>span:last-child{
+    float:right;
+    margin-right: 20px;
+    color: #1080e9;
+    cursor: pointer;
+}
+.delivery p>span:nth-last-child(2){
+    color: #4c4c4c;
+}
+.dyRight>div{
+    height: 111px;
+    margin-top: 10px;
+    line-height: 111px;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+.dyRight .prodImg{
+    width: 109px;
+    height: 109px;
+    border:1px solid #e5e5e5;
+    background: #fff;
+    margin-left: 12px;
+}
+.dyRight .prodImg>img{
+    width: 111px;
+    height: 111px;
+}
+.dyRight>div>span{
+    margin-left: 50px;
+}
+.dyRight>div>.price{
+    color: #f00d0d;
+    margin-left: 96px;
+}
+.dyRight>div>span:last-child{
+    margin-left: 100px;
+}
+#main>p{
+    font-size: 18px;
+    color: #999;
+    margin-top: 18px;
+    text-indent: 10px;
+}
+#main>p>span{
+    color: #1080e9;
+    margin-left: 30px;
+}
+#main .allProd{
+    margin-top: 36px;
+    line-height: 58px;
+    border: 1px solid #ccc;
+}
+#main .allProd>div{
+    font-size: 16px;
+    color: #808080;
+}
+#main .allProd>.fl:first-child{
+    margin-left: 20px;
+}
+#main .allProd>.fl:not(:first-child){
+    margin-left: 80px;
+}
+#main .allProd>.fr{
+    color: #4c4c4c;
+    font-size: 20px;
+    margin-right: 68px;
+}
+#main .allProd>div>span{
+    font-size: 20px;
+    color: #f60;
+}
+#main .allProd>.fr>span{
+    font-size: 26px;
+}
+.bottom>.listBtn{
+    width: 140px;
+    height: 60px;
+    background: #f60;
+    text-align: center;
+    font-size: 26px;
+    color: #fefefe;
+    line-height: 60px;
+    cursor: pointer;
+    margin-bottom: 52px;
+}
+.bottom>.fl{
+    line-height: 60px;
+    font-size: 14px;
+    color: #4c4c4c;
+    text-indent: 1em;
+}
+.bottom>.fl input{
+    outline: none;
+    width: 345px;
+    border: 1px solid #d9d9d9;
+    margin-right: 30px;
+}
+.bottom>.fl input:last-child{
+    width: 130px;
+}
+#listFlag{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 999;
+}
+#listFlag>.wrap{
+    width: 470px;
+    height: 280px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -235px;
+    color: #666;
+    font-size: 20px;
+    box-shadow: -3px -1px 17px #333;
+}
+#listFlag .wTop{
+    width: 450px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #e5e5e5;
+}
+#listFlag .wTop>.fr{
+    cursor: pointer;
+}
+#listFlag .wBottom{
+    width: 298px;
+    height: 150px;
+    padding: 40px 86px 50px;
+}
+#listFlag .false{
+    float: left;
+    width: 120px;
+    line-height: 40px;
+    text-align: center;
+    background: #e6e6e6;
+    margin-top: 32px;
+    cursor: pointer;
+}
+#listFlag .true{
+    float: right;
+    width: 120px;
+    line-height: 40px;
+    text-align: center;
+    background: #f60;
+    color: #fff;
+    margin-top: 32px;
+    cursor: pointer;
+}

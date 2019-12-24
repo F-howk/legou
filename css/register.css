@@ -1,0 +1,126 @@
+#top .fl{
+    margin-left: 258px;
+}
+#left{
+    width: 258px;
+    height: 105px;
+    background: none;
+}
+#right{
+    width: 942px;
+    height: 77px;
+    margin-top: 0;
+    font-size: 30px;
+    line-height: 77px;
+    text-indent: 24px;
+    color: #666666;
+    position: relative;
+}
+#right>span{
+    position: absolute;
+    top: 14px;
+    right: 42px;
+    font-size: 24px;
+    color:#a6a6a6;
+}
+#right>span>a{
+    color: #666;
+}
+#bg{
+    min-width: 1200px;
+    height: 6px;
+    border-top: 6px solid #e7e7e7;
+}
+#main{
+    height: 692px;
+    border-bottom: 2px solid #e6e6e6;
+}
+.register{
+    width: 400px;
+    height: 604px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.register div{
+    width: 398px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 22px;
+    color:#666;
+    text-indent: 8px;
+    border: 1px solid #d9d9d9;
+    margin-top: 48px;
+}
+.register input{
+    border: 0;
+    outline: none;
+    width: 260px;
+    height: 42px;
+    line-height: 42px;
+    float: right;
+}
+.register .use{
+    margin-top: 0;
+}
+.authCode span{
+    float: right;
+    display: block;
+    width: 114px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 3px;
+    font-size: 28px;
+    color: #fff;;
+    background: #1a83e5;
+    cursor: pointer;
+}
+.authCode input{
+    width: 140px;
+}
+.telAuthCode span{
+    float: right;
+    display: block;
+    width: 114px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 3px;
+    font-size: 16px;
+    color: #4c4c4c;
+    background: #e6e6e6;
+    cursor: pointer;
+}
+.telAuthCode input{
+    width: 156px;
+}
+.register p>input{
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-top: 3px;
+    border: 1px solid #e5e5e5;
+}
+.register p{
+    margin-top: 14px;
+    font-size: 14px;
+    text-indent: 2px;
+    color: #4c4c4c;
+}
+.register p>a{
+    color: #f60;
+}
+.btn{
+    width: 400px;
+    height: 44px;
+    background: #f60;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    font-size: 28px;
+    border: 0;
+    outline: none;
+    margin-top: 30px;
+}

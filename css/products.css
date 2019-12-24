@@ -1,0 +1,424 @@
+#left {
+    background: #93d46f;
+}
+#left>img{
+    width: 200px;
+    height: 75px;
+}
+#left>p{
+    margin-top: 15px;
+}
+/* 轮播 */
+#banner{
+    height: 430px;
+}
+#banner .bannerLeft{
+    width: 1000px;
+    height: 430px;
+    position: relative;
+}
+#banner .bannerRight{
+    width: 200px;
+    height: 430px;
+}
+#banner>.bannerLeft img{
+    width: 1000px;
+    height: 400px;
+}
+#ban{
+    width: 1000px;
+    height: 400px;
+}
+#banner>.bannerLeft span{
+    display: block;
+    width: 36px;
+    height: 70px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+#banner>.bannerLeft span:first-of-type{
+    position: absolute;
+    top:165px;
+    background:url(../img/leftBtn.png) no-repeat #000;
+}
+#banner>.bannerLeft span:last-of-type{
+    position: absolute;
+    top:165px;
+    right: 0;
+    background:url(../img/rightBtn.png) no-repeat #000;
+}
+#bottomBtn{
+    text-align: center;
+    margin-top: 4px;
+}
+#bottomBtn li{
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    background: #d8d8d8;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 12px;
+    cursor: pointer;
+}
+#bottomBtn li.active{
+    background: #f60;
+}
+#banner .brTop{
+    width: 200px;
+    height: 30px;
+    background: #93d46f;
+    line-height: 30px;
+    text-indent: 1em;
+}
+#banner .brTop span{
+    font-size: 18px;
+    color:#fff;
+}
+#banner .brBook{
+    width: 200px;
+    height: 140px;
+    border-bottom: 1px solid #b3b3b3;
+}
+#banner .brBook span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height:20px;
+    font-size: 16px;
+    color:#fff;
+    margin-left: 180px;
+}
+#banner .brBook p{
+    width: 100px;
+    font-size: 14px;
+    color:#333333;
+    margin-top: 6px;
+    line-height: 18px;
+    float: right;
+}
+#banner .brBooks{
+    width: 200px;
+    height: 42px;
+    border-bottom: 1px solid #b3b3b3;
+    position: relative;
+    overflow: hidden;
+}
+#banner .brBooks span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height:20px;
+    font-size: 16px;
+    color:#fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#banner .brBooks p{
+    width: 100px;
+    font-size: 14px;
+    color:#333333;
+    margin-top: 6px;
+    line-height: 18px;
+    float: right;
+    margin-top: 24px;
+}
+#banner .brBooks:nth-last-child(1) span,#banner .brBooks:nth-last-child(2) span,#banner .brBooks:nth-last-child(3) span,#banner .brBooks:nth-last-child(4) span{
+    background:#b3b3b3;
+}
+#banner .bannerRight>div:nth-child(2)>span,#banner .bannerRight>div:nth-child(3)>span,#banner .bannerRight>div:nth-child(4)>span{
+    background: #f60;
+}
+#main .lBooks{
+    height: 570px;
+    margin-top: 26px;
+}
+#main .bTop{
+    height: 47px;
+}
+.bTop span{
+    display: block;
+    width: 220px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 24px;
+    background: #f60;
+    color: #fff;
+    text-align: center;
+}
+#main .bMiddle{
+    height: 523px;
+    box-sizing: border-box;
+    border-top: 6px solid #f60;
+}
+#booksMiddle>div{
+    float: left;
+    width: 208px;
+    height: 258px;
+    box-sizing: border-box;
+    padding: 5px 30px;
+}
+#booksMiddle>div:not(:nth-child(5n)){
+    margin-right: 40px;
+}
+#booksMiddle>.bDiv{
+    margin-bottom: 4px;
+}
+#booksMiddle>div:hover{
+    background: #f2f2f2;
+}
+#booksMiddle .bookPng{
+    margin-left:-30px;
+}
+#booksMiddle>div>p{
+    font-size: 14px;
+    color: #333;
+    margin-left: -20px;
+    line-height: 26px;
+    vertical-align: middle;
+}
+#booksMiddle .pPng{
+    color: #f4290d;
+    background: url(../img/XX.png) no-repeat 40px 1px;
+}
+#booksMiddle>div>p:nth-last-child(1)>span{
+    font-size: 24px;
+    margin-left: -2px;
+    margin-right: 18px;
+}
+#booksMiddle>div>p:nth-last-child(1)>span:first-child{
+    color: #f4290d;
+}
+#booksMiddle>div>p:nth-last-child(1)>span:last-child{
+    color: #bfbfbf;
+    text-decoration: line-through;
+}
+.nBook{
+    height: 540px;
+    margin-top: 26px;
+}
+.bookTop{
+    height: 38px;
+    font-size: 22px;
+    color: #333;
+}
+.bookTop span{
+    display: inline-block;
+    width: 42px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 28px;
+    color:#fff;
+    background: #f60;
+}
+.nbLeft{
+    width: 904px;
+    height: 504px;
+    box-sizing: border-box;
+    border: 2px solid #e6e6e6;
+    border-top: 0;
+    border-top: 6px solid #f60;
+    padding: 16px 5px 16px 10px;
+}
+.nbRight{
+    width: 284px;
+    height: 504px;
+    box-sizing: border-box;
+    border: 2px solid #e6e6e6;
+}
+#nBooksLeft>div{
+    float: left;
+    width: 170px;
+    height: 220px;
+}
+#nBooksLeft>div:not(:nth-child(5n)){
+    margin-right: 8px;
+}
+#nBooksLeft>.nDiv{
+    margin-bottom: 22px;
+}
+#nBooksLeft>div>img{
+    margin-left: 10px;
+}
+#nBooksLeft p{
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    margin-left: 10px;
+}
+#nBooksLeft>div>p:last-of-type{
+    color: #808080;
+}
+#nBooksLeft>div>span{
+    font-size: 18px;
+    color: #f91616;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#nBooksLeft>div>span:last-of-type{
+    color: #b2b2b2;
+    text-decoration: line-through;
+}
+.nbRight h4{
+    width: 100%;
+    height: 38px;
+    font-size: 24px;
+    color:#808080;
+    line-height: 38px;
+    text-align: center;
+}
+.nbRight span{
+    display: block;
+    width: 22px;
+    height: 40px;
+    float: left;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+.nbRight div{
+    width: 258px;
+    height: 40px;
+    float: right;
+}
+.nbRight .firstSpan,.nbRight .firstDiv{
+    height: 170px;
+}
+.nbRight div:not(.firstDiv){
+    border-top: 2px solid #e5e5e5;
+    line-height: 40px;
+    color: #4c4c4c;
+    font-size: 16px;
+}
+.nbRight span:not(.firstSpan){
+    margin-top: 2px;
+    text-align: center;
+    line-height: 40px;
+}
+.nbRight .firstDiv>img{
+    height: 148px;
+}
+.nbRight .firstDiv>p{
+    margin-top: 10px;
+    width: 134px;
+    float: right;
+    font-size: 14px;
+    color: #404040;
+}
+.nbRight .firstSpan{
+    text-align: center;
+}
+.nbRight span:nth-of-type(1),.nbRight span:nth-of-type(2),.nbRight span:nth-of-type(3){
+    color: #ff2315;
+}
+#offer{
+    height: 580px;
+    margin-top: 52px;
+    border-bottom: 2px solid #e6e6e6;
+}
+.bookTop>a{
+    float: right;
+    display: block;
+    width: 98px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+.bookTop>a:first-of-type,.bookTop>a:nth-of-type(2){
+    width: 90px;
+}
+.bookTop>a.offerOn{
+    background: #f60;
+    color: #fff;
+}
+.bookMiddle{
+    border-top: 6px solid #f60;
+}
+.bookMiddle{
+    height: 464px;
+    width: 1132px;
+    padding: 16px 34px;
+    position: relative;
+}
+.bookMiddle>div{
+    float: left;
+    width: 170px;
+    height: 220px;
+    margin-right: 22px;
+}
+.bookMiddle>.offerMd{
+    margin-bottom: 24px;
+}
+.bookMiddle>div:nth-child(6n){
+    margin-right: 0;
+}
+.bookMiddle>span{
+    display: block;
+    width: 36px;
+    height: 70px;
+    opacity: 0.2;
+    cursor: pointer;
+}
+.bookMiddle>span:first-of-type{
+    position: absolute;
+    top:215px;
+    left: 0;
+    background:url(../img/leftBtn.png) no-repeat #000;
+}
+.bookMiddle>span:last-of-type{
+    position: absolute;
+    top:215px;
+    right: 0;
+    background:url(../img/rightBtn.png) no-repeat #000;
+}
+.bookBottom{
+    height: 42px;
+}
+.bookBottom li{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background:#ccc;
+    margin-left: 14px;
+}
+.bookBottom li.on{
+    background:#f60;
+}
+.bookBottom>ul{
+    text-align: center;
+    line-height: 42px;
+}
+#like{
+    border-bottom: 2px solid #ccc;
+}
+#likeTop{
+    margin-top: 40px;
+}
+#likeTop>span:last-child{
+    float: right;
+    text-align: right;
+    width: 94px;
+    height: 38px;
+    line-height: 38px;
+    background: url(../img/huan.png)no-repeat 0 9px;
+    font-size: 18px;
+    color: #468bfd;
+}
+#bBottom{
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+#bBottom>img{
+    width: 200px;
+    height: 112px;
+    float: left;
+}

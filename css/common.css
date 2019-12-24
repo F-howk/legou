@@ -1,0 +1,219 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+}
+.clearfix{
+    zoom: 1;
+}
+
+/* 顶部 */
+#top {
+    background: #101010;
+    min-width: 1200px;
+    line-height:28px;
+}
+#top span:first-of-type{
+    font-size:18px ;
+    color: #e5e5e5;
+}
+#top span:last-of-type{
+    font-size: 14px;
+    color: #bfbfbf;
+}
+#top a{
+    color: #ff6600;
+}
+#top .fl{
+    margin-left: 200px;
+}
+/* header */
+#header{
+    position: relative;
+}
+#left{
+    width: 200px;
+    height: 112px;
+    background: #f60;
+    position: absolute;
+    top: -28px;
+}
+#left>p{
+    display: inline-block;
+    width: 130px;
+    font-size: 16px;
+    background: url(../img/bodbtn.png) no-repeat right 8px;
+    color: #fff;
+    margin-left: 36px;
+    margin-top: 22px;
+    letter-spacing: 2px;
+}
+#right{
+    width: 1000px;
+    height: 78px;
+    margin-top: 6px;
+}
+#search{
+    height: 36px;
+    margin-bottom: 22px;
+}
+#search form{
+    display: inline-block;
+}
+#search input{
+    margin-left: 315px;
+    border: 0;
+    width: 388px;
+    height: 32px;
+    border: 2px solid #f60;
+    outline: none;
+}
+#search button{
+    text-indent: -9999px;
+    margin-left: -6px;
+    border: 0;
+    width: 44px;
+    height: 36px;
+    border: 2px solid #f60;
+    background: url(../img/fangdajing.png) no-repeat center #f60;
+    outline: none;
+}
+#search a{
+    box-sizing: border-box;
+    display:block;
+    float: right;
+    width: 98px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+#search a:last-of-type{
+    border: 1px solid #f60;
+    background:url(../img/VectorSmartObject.png) no-repeat 4px center #f60;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 32px;
+}
+#search a:last-of-type>span{
+    margin-left: 6px;
+}
+#search a:first-of-type{
+    border: 1px solid #ccc;
+    background: #ebebeb;
+    font-size: 16px;
+    color: #808080;
+}
+#rightBottom>a{
+    margin-left: 27px;
+    font-size: 16px;
+    color:#323232;
+}
+/* 尾部 */
+#footer{
+    height: 472px;
+}
+#footerTop{
+    width: 100%;
+    min-width: 1200px;
+    line-height: 100px;
+    height: 100px;
+    border-top: 6px solid #f60;
+    background: #f2f2f2;
+}
+#footerTop a{
+    display: inline-block;
+    width: 200px;
+    height: 52px;
+}
+#footerTop>div{
+    box-sizing: border-box;
+    padding: 24px 160px;
+}
+#footerTop a:first-of-type{
+    background: url(../img/foot_03.jpg) no-repeat;
+}
+#footerTop a:nth-of-type(2){
+    background: url(../img/foot_03.jpg) no-repeat -200px 0;
+}
+#footerTop a:nth-of-type(3){
+    background: url(../img/foot_03.jpg) no-repeat -400px 0;
+}
+#footerTop a:last-of-type{
+    background: url(../img/foot_03.jpg) no-repeat -600px 0;
+}
+#footerMiddle>div{
+    width: 790px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+#footerMiddle ul{
+    margin-left: -50px;
+}
+#footerMiddle li{
+    width: 120px;
+    height: 20px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+#footerMiddle div img{
+    position: absolute;
+    top: 30px;
+    right: -190px;
+}
+#footerMiddle li>a{
+    font-size: 16px;
+    color: #666;
+}
+#footerMiddle li>a.lia{
+    font-size: 18px;
+    color: #000;
+}
+#footerMiddle>p{
+    margin-top: 15px;
+    width: 890px;
+    height: 15px;
+    margin: 0 auto;
+    margin-left: 140px;
+    text-align: center;
+    margin-top: 40px;
+}
+#footerMiddle>p>a{
+    border-right: 1px solid #333;
+    float: left;
+    width: 150px;
+    height: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+#footerMiddle>p>a:not(:nth-of-type(2)){
+    width: 100px;
+}
+#footerMiddle>p>a:last-of-type{
+    border-right: 0;
+}
+#footerMiddle>span{
+    display: block;
+    width: 360px;
+    margin: 0 auto;
+    margin-left: 375px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #333;
+}
